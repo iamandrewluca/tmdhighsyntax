@@ -1,0 +1,12 @@
+{
+  "name": "tmdhighsyntax",
+  "version": "1.0.0",
+  "description": "TMD Syntax Highlighter",
+  "main": "index.js",
+  "repository": "https://github.com/iamandrewluca/tmdhighsyntax",
+  "author": "Andrew Luca <thendrluca@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.25.2"
+  }
+}
