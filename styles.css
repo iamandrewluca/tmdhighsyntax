@@ -1,51 +1,69 @@
-#codeContainer {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(0,0,0,0.6);
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-#codeContainer > form {
-    width:800px;
-    height:480px;
-    border:1px solid #fff;
-    position:fixed;
-    background-color:rgb(255,255,255);
-    top:50%;
-    left:50%;
-    margin:-240px 0 0 -400px;
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
 }
-#closeCodeContainer {
-    width:26px;
-    height:26px;
-    float:right;
-    background-image:url("http://www.torrentsmd.com/pic/close.gif");
-    background-repeat:no-repeat;
-    background-size:26px 26px;
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
 }
-#addCode {
-    float:right;
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
 }
-#textAreaCode {
-    font-family:Courier;
-    font-size:12px;
-    resize:none;
-    width:796px;
-    height:449px;
-    background-color:#EEEFFF;
-    outline:none;
-    border:none;
-    border-top:1px solid #fff;
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
-#codeCredits {
-    width:800px;
-    margin-left:-1px;
-    text-align:center;
-    color:#000;
-    font-size:24px;
-    font-family:Courier;
-    line-height:50px;
-    background-color:rgba(255,255,255,0.8);
-    border:1px solid #fff;
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
 }
