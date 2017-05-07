@@ -1,0 +1,51 @@
+#codeContainer {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.6);
+}
+#codeContainer > form {
+    width:800px;
+    height:480px;
+    border:1px solid #fff;
+    position:fixed;
+    background-color:rgb(255,255,255);
+    top:50%;
+    left:50%;
+    margin:-240px 0 0 -400px;
+}
+#closeCodeContainer {
+    width:26px;
+    height:26px;
+    float:right;
+    background-image:url("http://www.torrentsmd.com/pic/close.gif");
+    background-repeat:no-repeat;
+    background-size:26px 26px;
+}
+#addCode {
+    float:right;
+}
+#textAreaCode {
+    font-family:Courier;
+    font-size:12px;
+    resize:none;
+    width:796px;
+    height:449px;
+    background-color:#EEEFFF;
+    outline:none;
+    border:none;
+    border-top:1px solid #fff;
+}
+#codeCredits {
+    width:800px;
+    margin-left:-1px;
+    text-align:center;
+    color:#000;
+    font-size:24px;
+    font-family:Courier;
+    line-height:50px;
+    background-color:rgba(255,255,255,0.8);
+    border:1px solid #fff;
+}
