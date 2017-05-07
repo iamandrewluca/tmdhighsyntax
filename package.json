@@ -7,6 +7,12 @@
   "author": "Andrew Luca <thendrluca@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "codemirror": "^5.25.2"
+    "codemirror": "^5.25.2",
+    "lodash": "^4.17.4",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "build": "webpack"
   }
 }
